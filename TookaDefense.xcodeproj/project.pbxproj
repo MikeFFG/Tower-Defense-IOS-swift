@@ -34,7 +34,6 @@
 		00394FDB1C0298E700594615 /* Lose@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00394FD91C0298E700594615 /* Lose@2x.png */; };
 		00394FDC1C0298E700594615 /* Win@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00394FDA1C0298E700594615 /* Win@2x.png */; };
 		005F03E11C1C9DDA00150F9B /* LevelSelectorTitle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 005F03D41C1C9DDA00150F9B /* LevelSelectorTitle@2x.png */; };
-		007362F61C1DFEE600B097E1 /* MagicTp.sks in Resources */ = {isa = PBXBuildFile; fileRef = 007362F41C1DFEE600B097E1 /* MagicTp.sks */; };
 		007362F71C1DFEE600B097E1 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 007362F51C1DFEE600B097E1 /* spark.png */; };
 		007362FA1C1E0A9C00B097E1 /* SlowAndBoost.sks in Resources */ = {isa = PBXBuildFile; fileRef = 007362F81C1E0A9C00B097E1 /* SlowAndBoost.sks */; };
 		007362FB1C1E0A9C00B097E1 /* bokeh.png in Resources */ = {isa = PBXBuildFile; fileRef = 007362F91C1E0A9C00B097E1 /* bokeh.png */; };
@@ -98,6 +97,7 @@
 		00F9D8901C020E6D00FDC148 /* Enemy1.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 00F9D88F1C020E6D00FDC148 /* Enemy1.atlas */; };
 		00F9D8921C020E7700FDC148 /* WaterTower.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 00F9D8911C020E7700FDC148 /* WaterTower.atlas */; };
 		00F9D8941C02790400FDC148 /* BackgroundLogo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 00F9D8931C02790400FDC148 /* BackgroundLogo@2x.png */; };
+		5CAF20961DB1D7680048AE94 /* MagicTp.sks in Resources */ = {isa = PBXBuildFile; fileRef = 5CAF20951DB1D7680048AE94 /* MagicTp.sks */; };
 		DAC31A1D1BD6C19300EEC069 /* SpriteComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC31A1C1BD6C19300EEC069 /* SpriteComponent.swift */; };
 		DAC31A201BD6C2D400EEC069 /* EnemyEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC31A1F1BD6C2D400EEC069 /* EnemyEntity.swift */; };
 		DAC31A241BD6C54100EEC069 /* AnimationComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAC31A231BD6C54100EEC069 /* AnimationComponent.swift */; };
@@ -212,6 +212,7 @@
 		00F9D88F1C020E6D00FDC148 /* Enemy1.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Enemy1.atlas; sourceTree = "<group>"; };
 		00F9D8911C020E7700FDC148 /* WaterTower.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = WaterTower.atlas; sourceTree = "<group>"; };
 		00F9D8931C02790400FDC148 /* BackgroundLogo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BackgroundLogo@2x.png"; sourceTree = "<group>"; };
+		5CAF20951DB1D7680048AE94 /* MagicTp.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = MagicTp.sks; path = TookaDefense/MagicTp.sks; sourceTree = "<group>"; };
 		DAC31A1C1BD6C19300EEC069 /* SpriteComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpriteComponent.swift; sourceTree = "<group>"; };
 		DAC31A1F1BD6C2D400EEC069 /* EnemyEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnemyEntity.swift; sourceTree = "<group>"; };
 		DAC31A231BD6C54100EEC069 /* AnimationComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationComponent.swift; sourceTree = "<group>"; };
@@ -459,6 +460,7 @@
 		DAEAE8EE1BB68B79000ACA2E = {
 			isa = PBXGroup;
 			children = (
+				5CAF20951DB1D7680048AE94 /* MagicTp.sks */,
 				DAEAE8F91BB68B79000ACA2E /* TookaDefense */,
 				DAEAE8F81BB68B79000ACA2E /* Products */,
 			);
@@ -561,12 +563,13 @@
 		DAEAE8EF1BB68B79000ACA2E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = tastyapp;
 				TargetAttributes = {
 					DAEAE8F61BB68B79000ACA2E = {
 						CreatedOnToolsVersion = 7.1;
 						DevelopmentTeam = 32M3E59Q24;
+						LastSwiftMigration = 0800;
 					};
 				};
 			};
@@ -593,6 +596,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5CAF20961DB1D7680048AE94 /* MagicTp.sks in Resources */,
 				00AB595C1C12634C0078EBE5 /* TowerSelector@2x.png in Resources */,
 				002D202F1C1B3FA200A9AE1E /* Boss2.atlas in Resources */,
 				DAEAE9861BB68E66000ACA2E /* TowerMenu.sks in Resources */,
@@ -609,7 +613,6 @@
 				00AB59791C1370FB0078EBE5 /* Wall@2x.png in Resources */,
 				007F397F1C1CAE0B003A1A66 /* Level12Box@2x.png in Resources */,
 				007A15EC1C11142A001D0C8E /* SellButton@2x.png in Resources */,
-				007362F61C1DFEE600B097E1 /* MagicTp.sks in Resources */,
 				0076D64B1C1C6C2F00DA1EDA /* score@2x.png in Resources */,
 				00394FD31C028CE900594615 /* NO ADS@2x.png in Resources */,
 				DAEAE9871BB68E66000ACA2E /* MenuScene.sks in Resources */,
@@ -752,8 +755,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -797,8 +802,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -817,6 +824,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -832,6 +840,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tastyapp.tooka;
 				PRODUCT_NAME = TookaDefense;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -845,6 +854,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tastyapp.tooka;
 				PRODUCT_NAME = TookaDefense;
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};

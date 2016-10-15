@@ -1,0 +1,675 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FiringComponent"
+provides-nominal:
+- "C12TookaDefense15FiringComponent"
+provides-member:
+- ["C12TookaDefense15FiringComponent", ""]
+provides-dynamic-lookup:
+- "update"
+- "currentTarget"
+- "parentNode"
+- "timeTillNextShot"
+depends-top-level:
+- "TimeInterval"
+- !private ">"
+- "NSCoder"
+- !private "-"
+- "FiringComponent"
+- !private "-="
+- !private "ProjectileEntity"
+- "GKComponent"
+- "EnemyEntity"
+- !private "fatalError"
+- !private "Array"
+- !private "SKAction"
+- !private "CGPoint"
+- "AssignmentPrecedence"
+- !private "Void"
+- "TowerType"
+- !private "StringLiteralType"
+- !private "BooleanLiteralType"
+- !private "CGVector"
+- "SKNode"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "Stride"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "CGVector"]
+- !private ["Ps9AnyObject", "ProjectileEntity"]
+- !private ["Ps9AnyObject", "SKAction"]
+- !private ["Ps9AnyObject", "addChild"]
+- ["Ps9AnyObject", "currentTarget"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "healthComponent"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "move"]
+- !private ["Ps9AnyObject", "node"]
+- ["Ps9AnyObject", "parentNode"]
+- !private ["Ps9AnyObject", "playSoundFileNamed"]
+- !private ["Ps9AnyObject", "position"]
+- !private ["Ps9AnyObject", "removeFromParent"]
+- !private ["Ps9AnyObject", "rotateToFaceNode"]
+- !private ["Ps9AnyObject", "run"]
+- !private ["Ps9AnyObject", "sequence"]
+- !private ["Ps9AnyObject", "spriteComponent"]
+- !private ["Ps9AnyObject", "takeDamage"]
+- ["Ps9AnyObject", "timeTillNextShot"]
+- ["Ps9AnyObject", "towerType"]
+- ["Ps9AnyObject", "update"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps19BinaryFloatingPoint", "Stride"]
+- !private ["Ps17BitwiseOperations", "Stride"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "Stride"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- ["VSC8CGVector", "deinit"]
+- !private ["VSC8CGVector", "init"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "CGVector"]
+- !private ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "ProjectileEntity"]
+- !private ["Ps7CVarArg", "SKAction"]
+- !private ["Ps7CVarArg", "Stride"]
+- !private ["Ps7CVarArg", "addChild"]
+- ["Ps7CVarArg", "currentTarget"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "healthComponent"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "move"]
+- !private ["Ps7CVarArg", "node"]
+- ["Ps7CVarArg", "parentNode"]
+- !private ["Ps7CVarArg", "playSoundFileNamed"]
+- !private ["Ps7CVarArg", "position"]
+- !private ["Ps7CVarArg", "removeFromParent"]
+- !private ["Ps7CVarArg", "rotateToFaceNode"]
+- !private ["Ps7CVarArg", "run"]
+- !private ["Ps7CVarArg", "sequence"]
+- !private ["Ps7CVarArg", "spriteComponent"]
+- !private ["Ps7CVarArg", "takeDamage"]
+- ["Ps7CVarArg", "timeTillNextShot"]
+- ["Ps7CVarArg", "towerType"]
+- ["Ps7CVarArg", "update"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Ps10Collection", "Element"]
+- !private ["Ps10Comparable", "Stride"]
+- !private ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGVector"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "ProjectileEntity"]
+- !private ["Ps28CustomDebugStringConvertible", "SKAction"]
+- !private ["Ps28CustomDebugStringConvertible", "Stride"]
+- !private ["Ps28CustomDebugStringConvertible", "addChild"]
+- ["Ps28CustomDebugStringConvertible", "currentTarget"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "healthComponent"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "move"]
+- !private ["Ps28CustomDebugStringConvertible", "node"]
+- ["Ps28CustomDebugStringConvertible", "parentNode"]
+- !private ["Ps28CustomDebugStringConvertible", "playSoundFileNamed"]
+- !private ["Ps28CustomDebugStringConvertible", "position"]
+- !private ["Ps28CustomDebugStringConvertible", "removeFromParent"]
+- !private ["Ps28CustomDebugStringConvertible", "rotateToFaceNode"]
+- !private ["Ps28CustomDebugStringConvertible", "run"]
+- !private ["Ps28CustomDebugStringConvertible", "sequence"]
+- ["Ps28CustomDebugStringConvertible", "some"]
+- !private ["Ps28CustomDebugStringConvertible", "spriteComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "takeDamage"]
+- ["Ps28CustomDebugStringConvertible", "timeTillNextShot"]
+- ["Ps28CustomDebugStringConvertible", "towerType"]
+- ["Ps28CustomDebugStringConvertible", "update"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "Stride"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "position"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "removeFromParent"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "rotateToFaceNode"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "run"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "Stride"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "init"]
+- ["Ps17CustomReflectable", "some"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "CGVector"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "ProjectileEntity"]
+- !private ["Ps23CustomStringConvertible", "SKAction"]
+- !private ["Ps23CustomStringConvertible", "Stride"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addChild"]
+- ["Ps23CustomStringConvertible", "currentTarget"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "healthComponent"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "move"]
+- !private ["Ps23CustomStringConvertible", "node"]
+- ["Ps23CustomStringConvertible", "parentNode"]
+- !private ["Ps23CustomStringConvertible", "playSoundFileNamed"]
+- !private ["Ps23CustomStringConvertible", "position"]
+- !private ["Ps23CustomStringConvertible", "removeFromParent"]
+- !private ["Ps23CustomStringConvertible", "rotateToFaceNode"]
+- !private ["Ps23CustomStringConvertible", "run"]
+- !private ["Ps23CustomStringConvertible", "sequence"]
+- !private ["Ps23CustomStringConvertible", "spriteComponent"]
+- !private ["Ps23CustomStringConvertible", "takeDamage"]
+- ["Ps23CustomStringConvertible", "timeTillNextShot"]
+- ["Ps23CustomStringConvertible", "towerType"]
+- ["Ps23CustomStringConvertible", "update"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Sd", "Stride"]
+- ["Sd", "deinit"]
+- ["C12TookaDefense11EnemyEntity", "deinit"]
+- !private ["C12TookaDefense11EnemyEntity", "healthComponent"]
+- !private ["C12TookaDefense11EnemyEntity", "spriteComponent"]
+- ["C12TookaDefense10EntityNode", "deinit"]
+- !private ["C12TookaDefense10EntityNode", "position"]
+- !private ["C12TookaDefense10EntityNode", "removeFromParent"]
+- !private ["C12TookaDefense10EntityNode", "rotateToFaceNode"]
+- !private ["C12TookaDefense10EntityNode", "run"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGVector"]
+- !private ["Ps9Equatable", "ProjectileEntity"]
+- !private ["Ps9Equatable", "SKAction"]
+- !private ["Ps9Equatable", "Stride"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- !private ["Ps9Equatable", "addChild"]
+- ["Ps9Equatable", "currentTarget"]
+- !private ["Ps9Equatable", "damage"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "fireRate"]
+- !private ["Ps9Equatable", "healthComponent"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "move"]
+- !private ["Ps9Equatable", "node"]
+- ["Ps9Equatable", "parentNode"]
+- !private ["Ps9Equatable", "playSoundFileNamed"]
+- !private ["Ps9Equatable", "position"]
+- !private ["Ps9Equatable", "rawValue"]
+- !private ["Ps9Equatable", "removeFromParent"]
+- !private ["Ps9Equatable", "rotateToFaceNode"]
+- !private ["Ps9Equatable", "run"]
+- !private ["Ps9Equatable", "sequence"]
+- !private ["Ps9Equatable", "spriteComponent"]
+- !private ["Ps9Equatable", "takeDamage"]
+- ["Ps9Equatable", "timeTillNextShot"]
+- ["Ps9Equatable", "towerType"]
+- ["Ps9Equatable", "update"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "Stride"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "Stride"]
+- ["Ps23ExpressibleByNilLiteral", "some"]
+- !private ["Ps32ExpressibleByStringInterpolation", "init"]
+- !private ["Ps26ExpressibleByStringLiteral", "init"]
+- !private ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["C12TookaDefense15FiringComponent", "CGPoint"]
+- !private ["C12TookaDefense15FiringComponent", "CGVector"]
+- ["C12TookaDefense15FiringComponent", "EnemyEntity"]
+- ["C12TookaDefense15FiringComponent", "NSCoder"]
+- !private ["C12TookaDefense15FiringComponent", "ProjectileEntity"]
+- !private ["C12TookaDefense15FiringComponent", "SKAction"]
+- ["C12TookaDefense15FiringComponent", "SKNode"]
+- ["C12TookaDefense15FiringComponent", "TimeInterval"]
+- ["C12TookaDefense15FiringComponent", "TowerType"]
+- !private ["C12TookaDefense15FiringComponent", "Void"]
+- ["C12TookaDefense15FiringComponent", "currentTarget"]
+- ["C12TookaDefense15FiringComponent", "deinit"]
+- !private ["C12TookaDefense15FiringComponent", "fatalError"]
+- ["C12TookaDefense15FiringComponent", "init"]
+- ["C12TookaDefense15FiringComponent", "parentNode"]
+- ["C12TookaDefense15FiringComponent", "timeTillNextShot"]
+- ["C12TookaDefense15FiringComponent", "towerType"]
+- ["C12TookaDefense15FiringComponent", "update"]
+- !private ["Sf", "deinit"]
+- !private ["Ps13FloatingPoint", "Stride"]
+- !private ["CSo11GKComponent", "CGPoint"]
+- !private ["CSo11GKComponent", "CGVector"]
+- ["CSo11GKComponent", "EnemyEntity"]
+- ["CSo11GKComponent", "NSCoder"]
+- !private ["CSo11GKComponent", "ProjectileEntity"]
+- !private ["CSo11GKComponent", "SKAction"]
+- ["CSo11GKComponent", "SKNode"]
+- ["CSo11GKComponent", "TimeInterval"]
+- ["CSo11GKComponent", "TowerType"]
+- !private ["CSo11GKComponent", "Void"]
+- ["CSo11GKComponent", "currentTarget"]
+- ["CSo11GKComponent", "deinit"]
+- !private ["CSo11GKComponent", "fatalError"]
+- ["CSo11GKComponent", "init"]
+- !private ["CSo11GKComponent", "node"]
+- ["CSo11GKComponent", "parentNode"]
+- !private ["CSo11GKComponent", "takeDamage"]
+- ["CSo11GKComponent", "timeTillNextShot"]
+- ["CSo11GKComponent", "towerType"]
+- ["CSo11GKComponent", "update"]
+- ["CSo11GKComponent", ""]
+- !private ["CSo8GKEntity", "healthComponent"]
+- !private ["CSo8GKEntity", "spriteComponent"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "CGVector"]
+- !private ["Ps8Hashable", "ProjectileEntity"]
+- !private ["Ps8Hashable", "SKAction"]
+- !private ["Ps8Hashable", "Stride"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps8Hashable", "addChild"]
+- ["Ps8Hashable", "currentTarget"]
+- !private ["Ps8Hashable", "damage"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "fireRate"]
+- !private ["Ps8Hashable", "healthComponent"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "move"]
+- !private ["Ps8Hashable", "node"]
+- ["Ps8Hashable", "parentNode"]
+- !private ["Ps8Hashable", "playSoundFileNamed"]
+- !private ["Ps8Hashable", "position"]
+- !private ["Ps8Hashable", "rawValue"]
+- !private ["Ps8Hashable", "removeFromParent"]
+- !private ["Ps8Hashable", "rotateToFaceNode"]
+- !private ["Ps8Hashable", "run"]
+- !private ["Ps8Hashable", "sequence"]
+- !private ["Ps8Hashable", "spriteComponent"]
+- !private ["Ps8Hashable", "takeDamage"]
+- ["Ps8Hashable", "timeTillNextShot"]
+- ["Ps8Hashable", "towerType"]
+- ["Ps8Hashable", "update"]
+- ["Ps8Hashable", ""]
+- !private ["C12TookaDefense15HealthComponent", "takeDamage"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- !private ["Si", "Stride"]
+- !private ["Si", "deinit"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "Stride"]
+- !private ["Ps17IntegerArithmetic", "Stride"]
+- !private ["Ps25LosslessStringConvertible", "Stride"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "Stride"]
+- !private ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "CGVector"]
+- !private ["PSo8NSCoding", "ProjectileEntity"]
+- !private ["PSo8NSCoding", "SKAction"]
+- !private ["PSo8NSCoding", "addChild"]
+- ["PSo8NSCoding", "currentTarget"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "healthComponent"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "move"]
+- !private ["PSo8NSCoding", "node"]
+- ["PSo8NSCoding", "parentNode"]
+- !private ["PSo8NSCoding", "playSoundFileNamed"]
+- !private ["PSo8NSCoding", "position"]
+- !private ["PSo8NSCoding", "removeFromParent"]
+- !private ["PSo8NSCoding", "rotateToFaceNode"]
+- !private ["PSo8NSCoding", "run"]
+- !private ["PSo8NSCoding", "sequence"]
+- !private ["PSo8NSCoding", "spriteComponent"]
+- !private ["PSo8NSCoding", "takeDamage"]
+- ["PSo8NSCoding", "timeTillNextShot"]
+- ["PSo8NSCoding", "towerType"]
+- ["PSo8NSCoding", "update"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGPoint"]
+- !private ["PSo9NSCopying", "CGVector"]
+- !private ["PSo9NSCopying", "ProjectileEntity"]
+- !private ["PSo9NSCopying", "SKAction"]
+- !private ["PSo9NSCopying", "addChild"]
+- ["PSo9NSCopying", "currentTarget"]
+- !private ["PSo9NSCopying", "fatalError"]
+- !private ["PSo9NSCopying", "healthComponent"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "move"]
+- !private ["PSo9NSCopying", "node"]
+- ["PSo9NSCopying", "parentNode"]
+- !private ["PSo9NSCopying", "playSoundFileNamed"]
+- !private ["PSo9NSCopying", "position"]
+- !private ["PSo9NSCopying", "removeFromParent"]
+- !private ["PSo9NSCopying", "rotateToFaceNode"]
+- !private ["PSo9NSCopying", "run"]
+- !private ["PSo9NSCopying", "sequence"]
+- !private ["PSo9NSCopying", "spriteComponent"]
+- !private ["PSo9NSCopying", "takeDamage"]
+- ["PSo9NSCopying", "timeTillNextShot"]
+- ["PSo9NSCopying", "towerType"]
+- ["PSo9NSCopying", "update"]
+- ["PSo9NSCopying", ""]
+- !private ["PSo16NSMutableCopying", "init"]
+- !private ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "CGVector"]
+- ["CSo8NSObject", "EnemyEntity"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "ProjectileEntity"]
+- !private ["CSo8NSObject", "SKAction"]
+- ["CSo8NSObject", "SKNode"]
+- ["CSo8NSObject", "TimeInterval"]
+- ["CSo8NSObject", "TowerType"]
+- !private ["CSo8NSObject", "Void"]
+- !private ["CSo8NSObject", "addChild"]
+- ["CSo8NSObject", "currentTarget"]
+- !private ["CSo8NSObject", "fatalError"]
+- !private ["CSo8NSObject", "healthComponent"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "move"]
+- !private ["CSo8NSObject", "node"]
+- ["CSo8NSObject", "parentNode"]
+- !private ["CSo8NSObject", "playSoundFileNamed"]
+- !private ["CSo8NSObject", "position"]
+- !private ["CSo8NSObject", "removeFromParent"]
+- !private ["CSo8NSObject", "rotateToFaceNode"]
+- !private ["CSo8NSObject", "run"]
+- !private ["CSo8NSObject", "sequence"]
+- !private ["CSo8NSObject", "spriteComponent"]
+- !private ["CSo8NSObject", "takeDamage"]
+- ["CSo8NSObject", "timeTillNextShot"]
+- ["CSo8NSObject", "towerType"]
+- ["CSo8NSObject", "update"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "CGVector"]
+- !private ["PSo16NSObjectProtocol", "ProjectileEntity"]
+- !private ["PSo16NSObjectProtocol", "SKAction"]
+- !private ["PSo16NSObjectProtocol", "addChild"]
+- ["PSo16NSObjectProtocol", "currentTarget"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "healthComponent"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "move"]
+- !private ["PSo16NSObjectProtocol", "node"]
+- ["PSo16NSObjectProtocol", "parentNode"]
+- !private ["PSo16NSObjectProtocol", "playSoundFileNamed"]
+- !private ["PSo16NSObjectProtocol", "position"]
+- !private ["PSo16NSObjectProtocol", "removeFromParent"]
+- !private ["PSo16NSObjectProtocol", "rotateToFaceNode"]
+- !private ["PSo16NSObjectProtocol", "run"]
+- !private ["PSo16NSObjectProtocol", "sequence"]
+- !private ["PSo16NSObjectProtocol", "spriteComponent"]
+- !private ["PSo16NSObjectProtocol", "takeDamage"]
+- ["PSo16NSObjectProtocol", "timeTillNextShot"]
+- ["PSo16NSObjectProtocol", "towerType"]
+- ["PSo16NSObjectProtocol", "update"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Sq", "deinit"]
+- ["Sq", "some"]
+- ["C12TookaDefense16ProjectileEntity", "deinit"]
+- !private ["C12TookaDefense16ProjectileEntity", "init"]
+- !private ["C12TookaDefense16ProjectileEntity", "spriteComponent"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps16RawRepresentable", "damage"]
+- !private ["Ps16RawRepresentable", "fireRate"]
+- !private ["Ps16RawRepresentable", "rawValue"]
+- ["CSo8SKAction", "deinit"]
+- !private ["CSo8SKAction", "move"]
+- !private ["CSo8SKAction", "playSoundFileNamed"]
+- !private ["CSo8SKAction", "run"]
+- !private ["CSo8SKAction", "sequence"]
+- !private ["CSo6SKNode", "addChild"]
+- ["CSo6SKNode", "deinit"]
+- !private ["CSo6SKNode", "position"]
+- !private ["CSo6SKNode", "removeFromParent"]
+- !private ["CSo6SKNode", "rotateToFaceNode"]
+- !private ["CSo6SKNode", "run"]
+- !private ["CSo12SKSpriteNode", "position"]
+- !private ["CSo12SKSpriteNode", "removeFromParent"]
+- !private ["CSo12SKSpriteNode", "rotateToFaceNode"]
+- !private ["CSo12SKSpriteNode", "run"]
+- !private ["PSo10SKWarpable", "position"]
+- !private ["PSo10SKWarpable", "removeFromParent"]
+- !private ["PSo10SKWarpable", "rotateToFaceNode"]
+- !private ["PSo10SKWarpable", "run"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps13SignedInteger", "Stride"]
+- !private ["Ps12SignedNumber", "Stride"]
+- !private ["C12TookaDefense15SpriteComponent", "node"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "Stride"]
+- ["SS", "deinit"]
+- !private ["SS", "init"]
+- !private ["Ps16TextOutputStream", "init"]
+- !private ["Ps20TextOutputStreamable", "init"]
+- !private ["O12TookaDefense9TowerType", "damage"]
+- ["O12TookaDefense9TowerType", "deinit"]
+- !private ["O12TookaDefense9TowerType", "fireRate"]
+- !private ["O12TookaDefense9TowerType", "rawValue"]
+- !private ["PSo18UIFocusEnvironment", "addChild"]
+- !private ["PSo18UIFocusEnvironment", "position"]
+- !private ["PSo18UIFocusEnvironment", "removeFromParent"]
+- !private ["PSo18UIFocusEnvironment", "rotateToFaceNode"]
+- !private ["PSo18UIFocusEnvironment", "run"]
+- !private ["PSo11UIFocusItem", "addChild"]
+- !private ["PSo11UIFocusItem", "position"]
+- !private ["PSo11UIFocusItem", "removeFromParent"]
+- !private ["PSo11UIFocusItem", "rotateToFaceNode"]
+- !private ["PSo11UIFocusItem", "run"]
+- !private ["CSo11UIResponder", "addChild"]
+- !private ["CSo11UIResponder", "position"]
+- !private ["CSo11UIResponder", "removeFromParent"]
+- !private ["CSo11UIResponder", "rotateToFaceNode"]
+- !private ["CSo11UIResponder", "run"]
+- !private ["PSo30UIResponderStandardEditActions", "addChild"]
+- !private ["PSo30UIResponderStandardEditActions", "position"]
+- !private ["PSo30UIResponderStandardEditActions", "removeFromParent"]
+- !private ["PSo30UIResponderStandardEditActions", "rotateToFaceNode"]
+- !private ["PSo30UIResponderStandardEditActions", "run"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps15_CVarArgAligned", "Stride"]
+- !private ["Ps22_CVarArgPassedAsDouble", "Stride"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps33_ExpressibleByBuiltinFloatLiteral", "Stride"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "Stride"]
+- !private ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- !private ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- !private ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "CGVector"]
+- !private ["Ps9_Hashable", "ProjectileEntity"]
+- !private ["Ps9_Hashable", "SKAction"]
+- !private ["Ps9_Hashable", "Stride"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- !private ["Ps9_Hashable", "addChild"]
+- ["Ps9_Hashable", "currentTarget"]
+- !private ["Ps9_Hashable", "damage"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "fireRate"]
+- !private ["Ps9_Hashable", "healthComponent"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "move"]
+- !private ["Ps9_Hashable", "node"]
+- ["Ps9_Hashable", "parentNode"]
+- !private ["Ps9_Hashable", "playSoundFileNamed"]
+- !private ["Ps9_Hashable", "position"]
+- !private ["Ps9_Hashable", "rawValue"]
+- !private ["Ps9_Hashable", "removeFromParent"]
+- !private ["Ps9_Hashable", "rotateToFaceNode"]
+- !private ["Ps9_Hashable", "run"]
+- !private ["Ps9_Hashable", "sequence"]
+- !private ["Ps9_Hashable", "spriteComponent"]
+- !private ["Ps9_Hashable", "takeDamage"]
+- ["Ps9_Hashable", "timeTillNextShot"]
+- ["Ps9_Hashable", "towerType"]
+- ["Ps9_Hashable", "update"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "Stride"]
+- !private ["Ps8_Integer", "Stride"]
+- !private ["Ps18_IntegerArithmetic", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "Stride"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps14_SignedInteger", "Stride"]
+- !private ["Ps11_Strideable", "Stride"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "VSC8CGVector"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Ps10Collection"
+- !private "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- !private "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "C12TookaDefense11EnemyEntity"
+- "C12TookaDefense10EntityNode"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps23ExpressibleByNilLiteral"
+- !private "Ps32ExpressibleByStringInterpolation"
+- !private "Ps26ExpressibleByStringLiteral"
+- !private "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C12TookaDefense15FiringComponent"
+- !private "Sf"
+- !private "Ps13FloatingPoint"
+- "CSo11GKComponent"
+- !private "CSo8GKEntity"
+- "Ps8Hashable"
+- !private "C12TookaDefense15HealthComponent"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- !private "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps25LosslessStringConvertible"
+- !private "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo8NSString"
+- "Os5Never"
+- "Sq"
+- "C12TookaDefense16ProjectileEntity"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- !private "Ps16RawRepresentable"
+- "CSo8SKAction"
+- "CSo6SKNode"
+- !private "CSo12SKSpriteNode"
+- !private "PSo10SKWarpable"
+- !private "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "C12TookaDefense15SpriteComponent"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- !private "Ps16TextOutputStream"
+- !private "Ps20TextOutputStreamable"
+- "O12TookaDefense9TowerType"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- !private "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps33_ExpressibleByBuiltinFloatLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- !private "Ps34_ExpressibleByBuiltinStringLiteral"
+- !private "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- !private "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- !private "Ps21_ObjectiveCBridgeable"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "2074b474ec7f78907581a62c44e62168"

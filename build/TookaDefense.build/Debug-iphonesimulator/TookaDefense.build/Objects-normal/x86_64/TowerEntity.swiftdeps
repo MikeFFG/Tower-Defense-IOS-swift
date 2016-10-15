@@ -1,0 +1,617 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "TowerType"
+- "TowerEntity"
+provides-nominal:
+- "O12TookaDefense9TowerType"
+- "C12TookaDefense11TowerEntity"
+provides-member:
+- ["O12TookaDefense9TowerType", ""]
+- ["C12TookaDefense11TowerEntity", ""]
+provides-dynamic-lookup:
+- "spriteComponent"
+- "firingComponent"
+- "animationComponent"
+depends-top-level:
+- "CGFloat"
+- "GKEntity"
+- "CGSize"
+- "String"
+- "FiringComponent"
+- !private "~="
+- !private "fatalError"
+- "Array"
+- "Animation"
+- "AssignmentPrecedence"
+- "=="
+- "Int"
+- "NSCoder"
+- "TowerEntity"
+- "AnimationComponent"
+- !private "SKTexture"
+- "StringLiteralType"
+- "UIColor"
+- "Double"
+- "SpriteComponent"
+- "AnimationState"
+- "TowerType"
+depends-member:
+- ["V12TookaDefense9Animation", "deinit"]
+- !private ["C12TookaDefense18AnimationComponent", "animationFromAtlas"]
+- ["C12TookaDefense18AnimationComponent", "deinit"]
+- !private ["C12TookaDefense18AnimationComponent", "init"]
+- !private ["O12TookaDefense14AnimationState", "Attacking"]
+- ["O12TookaDefense14AnimationState", "deinit"]
+- !private ["Ps9AnyObject", "Animation"]
+- !private ["Ps9AnyObject", "AnimationComponent"]
+- !private ["Ps9AnyObject", "AnimationState"]
+- !private ["Ps9AnyObject", "FiringComponent"]
+- !private ["Ps9AnyObject", "SKTexture"]
+- !private ["Ps9AnyObject", "SpriteComponent"]
+- !private ["Ps9AnyObject", "addComponent"]
+- ["Ps9AnyObject", "animationComponent"]
+- !private ["Ps9AnyObject", "animationFromAtlas"]
+- !private ["Ps9AnyObject", "fatalError"]
+- ["Ps9AnyObject", "firingComponent"]
+- ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "loadAnimations"]
+- !private ["Ps9AnyObject", "node"]
+- ["Ps9AnyObject", "spriteComponent"]
+- ["Ps9AnyObject", "towerType"]
+- ["Ps9AnyObject", ""]
+- ["Sa", "Element"]
+- ["Sa", "deinit"]
+- ["Ps23BidirectionalCollection", "Element"]
+- ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps17BitwiseOperations", "hashValue"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- ["VSC6CGSize", "deinit"]
+- !private ["Ps7CVarArg", "Animation"]
+- !private ["Ps7CVarArg", "AnimationComponent"]
+- !private ["Ps7CVarArg", "AnimationState"]
+- ["Ps7CVarArg", "Element"]
+- !private ["Ps7CVarArg", "FiringComponent"]
+- !private ["Ps7CVarArg", "SKTexture"]
+- !private ["Ps7CVarArg", "SpriteComponent"]
+- !private ["Ps7CVarArg", "addComponent"]
+- ["Ps7CVarArg", "animationComponent"]
+- !private ["Ps7CVarArg", "animationFromAtlas"]
+- !private ["Ps7CVarArg", "fatalError"]
+- ["Ps7CVarArg", "firingComponent"]
+- !private ["Ps7CVarArg", "hashValue"]
+- ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "loadAnimations"]
+- !private ["Ps7CVarArg", "node"]
+- ["Ps7CVarArg", "spriteComponent"]
+- !private ["Ps7CVarArg", "subscript"]
+- ["Ps7CVarArg", "towerType"]
+- ["Ps7CVarArg", ""]
+- !private ["Vs9Character", "deinit"]
+- !private ["Vs11ClosedRange", "deinit"]
+- ["Ps10Collection", "Element"]
+- !private ["Ps10Collection", "Index"]
+- !private ["Ps10Collection", "Iterator"]
+- !private ["Ps10Collection", "SubSequence"]
+- !private ["Ps10Collection", "_Element"]
+- !private ["Ps10Collection", "init"]
+- !private ["Ps10Collection", "subscript"]
+- !private ["Ps10Comparable", "hashValue"]
+- ["Ps10Comparable", "init"]
+- !private ["Vs20CountableClosedRange", "deinit"]
+- !private ["Vs14CountableRange", "deinit"]
+- !private ["Ps28CustomDebugStringConvertible", "Animation"]
+- !private ["Ps28CustomDebugStringConvertible", "AnimationComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "AnimationState"]
+- ["Ps28CustomDebugStringConvertible", "Element"]
+- !private ["Ps28CustomDebugStringConvertible", "FiringComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "SKTexture"]
+- !private ["Ps28CustomDebugStringConvertible", "SpriteComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "addComponent"]
+- ["Ps28CustomDebugStringConvertible", "animationComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "animationFromAtlas"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- ["Ps28CustomDebugStringConvertible", "firingComponent"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "loadAnimations"]
+- !private ["Ps28CustomDebugStringConvertible", "node"]
+- ["Ps28CustomDebugStringConvertible", "spriteComponent"]
+- !private ["Ps28CustomDebugStringConvertible", "subscript"]
+- ["Ps28CustomDebugStringConvertible", "towerType"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "_getBuiltinLogicValue"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "hashValue"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- ["Ps17CustomReflectable", "Element"]
+- !private ["Ps17CustomReflectable", "_getBuiltinLogicValue"]
+- !private ["Ps17CustomReflectable", "hashValue"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "subscript"]
+- !private ["Ps23CustomStringConvertible", "Animation"]
+- !private ["Ps23CustomStringConvertible", "AnimationComponent"]
+- !private ["Ps23CustomStringConvertible", "AnimationState"]
+- ["Ps23CustomStringConvertible", "Element"]
+- !private ["Ps23CustomStringConvertible", "FiringComponent"]
+- !private ["Ps23CustomStringConvertible", "SKTexture"]
+- !private ["Ps23CustomStringConvertible", "SpriteComponent"]
+- !private ["Ps23CustomStringConvertible", "_getBuiltinLogicValue"]
+- !private ["Ps23CustomStringConvertible", "addComponent"]
+- ["Ps23CustomStringConvertible", "animationComponent"]
+- !private ["Ps23CustomStringConvertible", "animationFromAtlas"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- ["Ps23CustomStringConvertible", "firingComponent"]
+- !private ["Ps23CustomStringConvertible", "hashValue"]
+- ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "loadAnimations"]
+- !private ["Ps23CustomStringConvertible", "node"]
+- ["Ps23CustomStringConvertible", "spriteComponent"]
+- !private ["Ps23CustomStringConvertible", "subscript"]
+- ["Ps23CustomStringConvertible", "towerType"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Vs10Dictionary", "deinit"]
+- !private ["Vs10Dictionary", "init"]
+- !private ["Vs10Dictionary", "subscript"]
+- ["Sd", "deinit"]
+- ["C12TookaDefense10EntityNode", "deinit"]
+- !private ["Ps9Equatable", "Animation"]
+- !private ["Ps9Equatable", "AnimationComponent"]
+- !private ["Ps9Equatable", "AnimationState"]
+- !private ["Ps9Equatable", "Attacking"]
+- ["Ps9Equatable", "Fire"]
+- !private ["Ps9Equatable", "FiringComponent"]
+- ["Ps9Equatable", "Ice"]
+- ["Ps9Equatable", "Plant"]
+- ["Ps9Equatable", "RawValue"]
+- !private ["Ps9Equatable", "SKTexture"]
+- !private ["Ps9Equatable", "SpriteComponent"]
+- !private ["Ps9Equatable", "UIColor"]
+- ["Ps9Equatable", "Water"]
+- !private ["Ps9Equatable", "_getBuiltinLogicValue"]
+- ["Ps9Equatable", "_toAnyHashable"]
+- !private ["Ps9Equatable", "addComponent"]
+- ["Ps9Equatable", "animationComponent"]
+- !private ["Ps9Equatable", "animationFromAtlas"]
+- !private ["Ps9Equatable", "fatalError"]
+- ["Ps9Equatable", "firingComponent"]
+- ["Ps9Equatable", "hashValue"]
+- ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "loadAnimations"]
+- !private ["Ps9Equatable", "node"]
+- ["Ps9Equatable", "rawValue"]
+- ["Ps9Equatable", "spriteComponent"]
+- ["Ps9Equatable", "towerType"]
+- ["Ps9Equatable", ""]
+- ["Ps25ExpressibleByArrayLiteral", "Element"]
+- !private ["Ps27ExpressibleByBooleanLiteral", "_getBuiltinLogicValue"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "init"]
+- !private ["Ps30ExpressibleByDictionaryLiteral", "subscript"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "hashValue"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- ["C12TookaDefense15FiringComponent", "deinit"]
+- !private ["C12TookaDefense15FiringComponent", "init"]
+- !private ["Sf", "deinit"]
+- !private ["CSo11GKComponent", "animationFromAtlas"]
+- !private ["CSo11GKComponent", "node"]
+- ["CSo8GKEntity", "Animation"]
+- ["CSo8GKEntity", "AnimationComponent"]
+- ["CSo8GKEntity", "AnimationState"]
+- ["CSo8GKEntity", "CGSize"]
+- ["CSo8GKEntity", "FiringComponent"]
+- ["CSo8GKEntity", "NSCoder"]
+- !private ["CSo8GKEntity", "SKTexture"]
+- ["CSo8GKEntity", "SpriteComponent"]
+- ["CSo8GKEntity", "TowerType"]
+- !private ["CSo8GKEntity", "addComponent"]
+- ["CSo8GKEntity", "animationComponent"]
+- ["CSo8GKEntity", "deinit"]
+- !private ["CSo8GKEntity", "fatalError"]
+- ["CSo8GKEntity", "firingComponent"]
+- ["CSo8GKEntity", "init"]
+- ["CSo8GKEntity", "loadAnimations"]
+- ["CSo8GKEntity", "spriteComponent"]
+- ["CSo8GKEntity", "towerType"]
+- ["CSo8GKEntity", ""]
+- !private ["Ps8Hashable", "Animation"]
+- !private ["Ps8Hashable", "AnimationComponent"]
+- !private ["Ps8Hashable", "AnimationState"]
+- !private ["Ps8Hashable", "Attacking"]
+- ["Ps8Hashable", "Fire"]
+- !private ["Ps8Hashable", "FiringComponent"]
+- ["Ps8Hashable", "Ice"]
+- ["Ps8Hashable", "Plant"]
+- ["Ps8Hashable", "RawValue"]
+- !private ["Ps8Hashable", "SKTexture"]
+- !private ["Ps8Hashable", "SpriteComponent"]
+- !private ["Ps8Hashable", "UIColor"]
+- ["Ps8Hashable", "Water"]
+- !private ["Ps8Hashable", "_getBuiltinLogicValue"]
+- ["Ps8Hashable", "_toAnyHashable"]
+- !private ["Ps8Hashable", "addComponent"]
+- ["Ps8Hashable", "animationComponent"]
+- !private ["Ps8Hashable", "animationFromAtlas"]
+- !private ["Ps8Hashable", "fatalError"]
+- ["Ps8Hashable", "firingComponent"]
+- ["Ps8Hashable", "hashValue"]
+- ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "loadAnimations"]
+- !private ["Ps8Hashable", "node"]
+- ["Ps8Hashable", "rawValue"]
+- ["Ps8Hashable", "spriteComponent"]
+- ["Ps8Hashable", "towerType"]
+- ["Ps8Hashable", ""]
+- ["SQ", "deinit"]
+- ["Ps9Indexable", "Element"]
+- !private ["Ps9Indexable", "Index"]
+- !private ["Ps9Indexable", "Iterator"]
+- !private ["Ps9Indexable", "SubSequence"]
+- !private ["Ps9Indexable", "_Element"]
+- !private ["Ps9Indexable", "init"]
+- !private ["Ps9Indexable", "subscript"]
+- ["Ps13IndexableBase", "Element"]
+- !private ["Ps13IndexableBase", "Index"]
+- !private ["Ps13IndexableBase", "Iterator"]
+- !private ["Ps13IndexableBase", "SubSequence"]
+- !private ["Ps13IndexableBase", "_Element"]
+- !private ["Ps13IndexableBase", "init"]
+- !private ["Ps13IndexableBase", "subscript"]
+- !private ["Vs16IndexingIterator", "Element"]
+- ["Si", "deinit"]
+- !private ["Si", "hashValue"]
+- !private ["Vs5Int16", "deinit"]
+- !private ["Vs5Int32", "deinit"]
+- !private ["Vs5Int64", "deinit"]
+- !private ["Vs4Int8", "deinit"]
+- !private ["Ps7Integer", "hashValue"]
+- !private ["Ps17IntegerArithmetic", "hashValue"]
+- !private ["Ps16IteratorProtocol", "Element"]
+- !private ["Ps25LosslessStringConvertible", "_getBuiltinLogicValue"]
+- ["Ps25LosslessStringConvertible", "init"]
+- !private ["Ps10MirrorPath", "hashValue"]
+- ["Ps10MirrorPath", "init"]
+- ["Ps17MutableCollection", "Element"]
+- ["Ps16MutableIndexable", "Element"]
+- !private ["PSo8NSCoding", "Animation"]
+- !private ["PSo8NSCoding", "AnimationComponent"]
+- !private ["PSo8NSCoding", "AnimationState"]
+- !private ["PSo8NSCoding", "FiringComponent"]
+- !private ["PSo8NSCoding", "SKTexture"]
+- !private ["PSo8NSCoding", "SpriteComponent"]
+- !private ["PSo8NSCoding", "addComponent"]
+- ["PSo8NSCoding", "animationComponent"]
+- !private ["PSo8NSCoding", "animationFromAtlas"]
+- !private ["PSo8NSCoding", "fatalError"]
+- ["PSo8NSCoding", "firingComponent"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "loadAnimations"]
+- !private ["PSo8NSCoding", "node"]
+- ["PSo8NSCoding", "spriteComponent"]
+- ["PSo8NSCoding", "towerType"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "Animation"]
+- !private ["PSo9NSCopying", "AnimationComponent"]
+- !private ["PSo9NSCopying", "AnimationState"]
+- !private ["PSo9NSCopying", "FiringComponent"]
+- !private ["PSo9NSCopying", "SKTexture"]
+- !private ["PSo9NSCopying", "SpriteComponent"]
+- !private ["PSo9NSCopying", "addComponent"]
+- ["PSo9NSCopying", "animationComponent"]
+- !private ["PSo9NSCopying", "animationFromAtlas"]
+- !private ["PSo9NSCopying", "fatalError"]
+- ["PSo9NSCopying", "firingComponent"]
+- ["PSo9NSCopying", "init"]
+- ["PSo9NSCopying", "loadAnimations"]
+- !private ["PSo9NSCopying", "node"]
+- ["PSo9NSCopying", "spriteComponent"]
+- ["PSo9NSCopying", "towerType"]
+- ["PSo9NSCopying", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Animation"]
+- ["CSo8NSObject", "AnimationComponent"]
+- ["CSo8NSObject", "AnimationState"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "FiringComponent"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "SKTexture"]
+- ["CSo8NSObject", "SpriteComponent"]
+- ["CSo8NSObject", "TowerType"]
+- !private ["CSo8NSObject", "addComponent"]
+- ["CSo8NSObject", "animationComponent"]
+- !private ["CSo8NSObject", "animationFromAtlas"]
+- !private ["CSo8NSObject", "fatalError"]
+- ["CSo8NSObject", "firingComponent"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "loadAnimations"]
+- !private ["CSo8NSObject", "node"]
+- ["CSo8NSObject", "spriteComponent"]
+- ["CSo8NSObject", "towerType"]
+- !private ["PSo16NSObjectProtocol", "Animation"]
+- !private ["PSo16NSObjectProtocol", "AnimationComponent"]
+- !private ["PSo16NSObjectProtocol", "AnimationState"]
+- !private ["PSo16NSObjectProtocol", "FiringComponent"]
+- !private ["PSo16NSObjectProtocol", "SKTexture"]
+- !private ["PSo16NSObjectProtocol", "SpriteComponent"]
+- !private ["PSo16NSObjectProtocol", "addComponent"]
+- ["PSo16NSObjectProtocol", "animationComponent"]
+- !private ["PSo16NSObjectProtocol", "animationFromAtlas"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- ["PSo16NSObjectProtocol", "firingComponent"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "loadAnimations"]
+- !private ["PSo16NSObjectProtocol", "node"]
+- ["PSo16NSObjectProtocol", "spriteComponent"]
+- ["PSo16NSObjectProtocol", "towerType"]
+- ["PSo16NSObjectProtocol", ""]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- ["Ps22RandomAccessCollection", "Element"]
+- ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Vs5Range", "deinit"]
+- ["Ps26RangeReplaceableCollection", "Element"]
+- ["Ps25RangeReplaceableIndexable", "Element"]
+- !private ["Ps16RawRepresentable", "Attacking"]
+- ["Ps16RawRepresentable", "Fire"]
+- ["Ps16RawRepresentable", "Ice"]
+- ["Ps16RawRepresentable", "Plant"]
+- ["Ps16RawRepresentable", "RawValue"]
+- !private ["Ps16RawRepresentable", "UIColor"]
+- ["Ps16RawRepresentable", "Water"]
+- ["Ps16RawRepresentable", "_toAnyHashable"]
+- ["Ps16RawRepresentable", "hashValue"]
+- ["Ps16RawRepresentable", "init"]
+- ["Ps16RawRepresentable", "rawValue"]
+- ["Ps16RawRepresentable", ""]
+- ["CSo9SKTexture", "deinit"]
+- !private ["CSo9SKTexture", "init"]
+- ["Ps8Sequence", "Element"]
+- !private ["Ps8Sequence", "Index"]
+- !private ["Ps8Sequence", "Iterator"]
+- !private ["Ps8Sequence", "SubSequence"]
+- !private ["Ps8Sequence", "_Element"]
+- !private ["Ps8Sequence", "init"]
+- !private ["Ps8Sequence", "subscript"]
+- !private ["Ps13SignedInteger", "hashValue"]
+- !private ["Ps12SignedNumber", "hashValue"]
+- !private ["Vs5Slice", "Index"]
+- !private ["Vs5Slice", "Iterator"]
+- !private ["Vs5Slice", "SubSequence"]
+- !private ["Vs5Slice", "_Element"]
+- ["C12TookaDefense15SpriteComponent", "deinit"]
+- !private ["C12TookaDefense15SpriteComponent", "init"]
+- !private ["C12TookaDefense15SpriteComponent", "node"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "hashValue"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- ["C12TookaDefense11TowerEntity", "Animation"]
+- ["C12TookaDefense11TowerEntity", "AnimationComponent"]
+- ["C12TookaDefense11TowerEntity", "AnimationState"]
+- ["C12TookaDefense11TowerEntity", "CGSize"]
+- ["C12TookaDefense11TowerEntity", "FiringComponent"]
+- ["C12TookaDefense11TowerEntity", "NSCoder"]
+- !private ["C12TookaDefense11TowerEntity", "SKTexture"]
+- ["C12TookaDefense11TowerEntity", "SpriteComponent"]
+- ["C12TookaDefense11TowerEntity", "TowerType"]
+- !private ["C12TookaDefense11TowerEntity", "addComponent"]
+- ["C12TookaDefense11TowerEntity", "animationComponent"]
+- ["C12TookaDefense11TowerEntity", "deinit"]
+- !private ["C12TookaDefense11TowerEntity", "fatalError"]
+- ["C12TookaDefense11TowerEntity", "firingComponent"]
+- ["C12TookaDefense11TowerEntity", "init"]
+- ["C12TookaDefense11TowerEntity", "loadAnimations"]
+- ["C12TookaDefense11TowerEntity", "spriteComponent"]
+- ["C12TookaDefense11TowerEntity", "towerType"]
+- ["O12TookaDefense9TowerType", "CGFloat"]
+- ["O12TookaDefense9TowerType", "Double"]
+- ["O12TookaDefense9TowerType", "Fire"]
+- ["O12TookaDefense9TowerType", "Ice"]
+- ["O12TookaDefense9TowerType", "Int"]
+- ["O12TookaDefense9TowerType", "Plant"]
+- ["O12TookaDefense9TowerType", "RawValue"]
+- ["O12TookaDefense9TowerType", "UIColor"]
+- ["O12TookaDefense9TowerType", "Water"]
+- ["O12TookaDefense9TowerType", "_toAnyHashable"]
+- ["O12TookaDefense9TowerType", "allValues"]
+- ["O12TookaDefense9TowerType", "color"]
+- ["O12TookaDefense9TowerType", "cost"]
+- ["O12TookaDefense9TowerType", "damage"]
+- ["O12TookaDefense9TowerType", "deinit"]
+- ["O12TookaDefense9TowerType", "fireRate"]
+- ["O12TookaDefense9TowerType", "hashValue"]
+- ["O12TookaDefense9TowerType", "init"]
+- ["O12TookaDefense9TowerType", "range"]
+- ["O12TookaDefense9TowerType", "rawValue"]
+- ["O12TookaDefense9TowerType", "sellPrice"]
+- ["O12TookaDefense9TowerType", "upgradePrice"]
+- ["CSo7UIColor", "deinit"]
+- !private ["CSo7UIColor", "init"]
+- ["Su", "deinit"]
+- !private ["Vs6UInt16", "deinit"]
+- !private ["Vs6UInt32", "deinit"]
+- !private ["Vs6UInt64", "deinit"]
+- !private ["Vs5UInt8", "deinit"]
+- !private ["Sc", "deinit"]
+- ["Ps14_ArrayProtocol", "Element"]
+- ["Ps24_DestructorSafeContainer", "Element"]
+- !private ["Ps35_ExpressibleByBuiltinBooleanLiteral", "_getBuiltinLogicValue"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps35_ExpressibleByBuiltinIntegerLiteral", "hashValue"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "init"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "Animation"]
+- !private ["Ps9_Hashable", "AnimationComponent"]
+- !private ["Ps9_Hashable", "AnimationState"]
+- !private ["Ps9_Hashable", "Attacking"]
+- ["Ps9_Hashable", "Fire"]
+- !private ["Ps9_Hashable", "FiringComponent"]
+- ["Ps9_Hashable", "Ice"]
+- ["Ps9_Hashable", "Plant"]
+- ["Ps9_Hashable", "RawValue"]
+- !private ["Ps9_Hashable", "SKTexture"]
+- !private ["Ps9_Hashable", "SpriteComponent"]
+- !private ["Ps9_Hashable", "UIColor"]
+- ["Ps9_Hashable", "Water"]
+- !private ["Ps9_Hashable", "_getBuiltinLogicValue"]
+- ["Ps9_Hashable", "_toAnyHashable"]
+- !private ["Ps9_Hashable", "addComponent"]
+- ["Ps9_Hashable", "animationComponent"]
+- !private ["Ps9_Hashable", "animationFromAtlas"]
+- !private ["Ps9_Hashable", "fatalError"]
+- ["Ps9_Hashable", "firingComponent"]
+- ["Ps9_Hashable", "hashValue"]
+- ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "loadAnimations"]
+- !private ["Ps9_Hashable", "node"]
+- ["Ps9_Hashable", "rawValue"]
+- ["Ps9_Hashable", "spriteComponent"]
+- ["Ps9_Hashable", "towerType"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps14_Incrementable", "hashValue"]
+- !private ["Ps8_Integer", "hashValue"]
+- !private ["Ps18_IntegerArithmetic", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "Element"]
+- !private ["Ps21_ObjectiveCBridgeable", "_getBuiltinLogicValue"]
+- !private ["Ps21_ObjectiveCBridgeable", "hashValue"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps21_ObjectiveCBridgeable", "subscript"]
+- !private ["Vs26_OptionalNilComparisonType", "deinit"]
+- !private ["Ps14_SignedInteger", "hashValue"]
+- !private ["Ps11_Strideable", "hashValue"]
+depends-nominal:
+- "V12TookaDefense9Animation"
+- "C12TookaDefense18AnimationComponent"
+- "O12TookaDefense14AnimationState"
+- "Ps9AnyObject"
+- "Sa"
+- "Ps23BidirectionalCollection"
+- "Ps22BidirectionalIndexable"
+- !private "Ps17BitwiseOperations"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "VSC6CGSize"
+- "Ps7CVarArg"
+- !private "Vs9Character"
+- !private "Vs11ClosedRange"
+- "Ps10Collection"
+- "Ps10Comparable"
+- !private "Vs20CountableClosedRange"
+- !private "Vs14CountableRange"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Vs10Dictionary"
+- "Sd"
+- "C12TookaDefense10EntityNode"
+- "Ps9Equatable"
+- "Ps25ExpressibleByArrayLiteral"
+- !private "Ps27ExpressibleByBooleanLiteral"
+- !private "Ps30ExpressibleByDictionaryLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- "C12TookaDefense15FiringComponent"
+- !private "Sf"
+- !private "CSo11GKComponent"
+- "CSo8GKEntity"
+- "Ps8Hashable"
+- "SQ"
+- "Ps9Indexable"
+- "Ps13IndexableBase"
+- !private "Vs16IndexingIterator"
+- "Si"
+- !private "Vs5Int16"
+- !private "Vs5Int32"
+- !private "Vs5Int64"
+- !private "Vs4Int8"
+- !private "Ps7Integer"
+- !private "Ps17IntegerArithmetic"
+- !private "Ps16IteratorProtocol"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- "Ps17MutableCollection"
+- "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- "Ps22RandomAccessCollection"
+- "Ps21RandomAccessIndexable"
+- !private "Vs5Range"
+- "Ps26RangeReplaceableCollection"
+- "Ps25RangeReplaceableIndexable"
+- "Ps16RawRepresentable"
+- "CSo9SKTexture"
+- "Ps8Sequence"
+- !private "Ps13SignedInteger"
+- !private "Ps12SignedNumber"
+- !private "Vs5Slice"
+- "C12TookaDefense15SpriteComponent"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "C12TookaDefense11TowerEntity"
+- "O12TookaDefense9TowerType"
+- "CSo7UIColor"
+- "Su"
+- !private "Vs6UInt16"
+- !private "Vs6UInt32"
+- !private "Vs6UInt64"
+- !private "Vs5UInt8"
+- !private "Sc"
+- "Ps14_ArrayProtocol"
+- "Ps24_DestructorSafeContainer"
+- !private "Ps35_ExpressibleByBuiltinBooleanLiteral"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- !private "Ps35_ExpressibleByBuiltinIntegerLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- !private "Ps14_Incrementable"
+- !private "Ps8_Integer"
+- !private "Ps18_IntegerArithmetic"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Vs26_OptionalNilComparisonType"
+- !private "Ps14_SignedInteger"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "587662b647280bccafc8645c466e441d"

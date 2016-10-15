@@ -1,0 +1,152 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "GameSceneLevelSelector"
+provides-nominal:
+- "C12TookaDefense22GameSceneLevelSelector"
+provides-member:
+- ["C12TookaDefense22GameSceneLevelSelector", ""]
+provides-dynamic-lookup:
+- "isValidNextState"
+- "didEnter"
+depends-top-level:
+- !private "showReady"
+- !private "showLevelSelector"
+- "AnyClass"
+- !private "BooleanLiteralType"
+- "GKState"
+- !private "GameSceneActiveState"
+- !private "=="
+- "GameSceneState"
+- "GameSceneLevelSelector"
+- "Bool"
+depends-member:
+- !private ["Ps9AnyObject", "GameSceneActiveState"]
+- ["Ps9AnyObject", "didEnter"]
+- !private ["Ps9AnyObject", "init"]
+- ["Ps9AnyObject", "isValidNextState"]
+- !private ["Ps9AnyObject", "showLevelSelector"]
+- !private ["Ps9AnyObject", "showReady"]
+- ["Ps9AnyObject", ""]
+- ["Sb", "deinit"]
+- !private ["Ps7CVarArg", "GameSceneActiveState"]
+- ["Ps7CVarArg", "didEnter"]
+- !private ["Ps7CVarArg", "init"]
+- ["Ps7CVarArg", "isValidNextState"]
+- !private ["Ps7CVarArg", "showLevelSelector"]
+- !private ["Ps7CVarArg", "showReady"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps28CustomDebugStringConvertible", "GameSceneActiveState"]
+- ["Ps28CustomDebugStringConvertible", "didEnter"]
+- !private ["Ps28CustomDebugStringConvertible", "init"]
+- ["Ps28CustomDebugStringConvertible", "isValidNextState"]
+- !private ["Ps28CustomDebugStringConvertible", "showLevelSelector"]
+- !private ["Ps28CustomDebugStringConvertible", "showReady"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "GameSceneActiveState"]
+- ["Ps23CustomStringConvertible", "didEnter"]
+- !private ["Ps23CustomStringConvertible", "init"]
+- ["Ps23CustomStringConvertible", "isValidNextState"]
+- !private ["Ps23CustomStringConvertible", "showLevelSelector"]
+- !private ["Ps23CustomStringConvertible", "showReady"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "GameSceneActiveState"]
+- ["Ps9Equatable", "didEnter"]
+- !private ["Ps9Equatable", "init"]
+- ["Ps9Equatable", "isValidNextState"]
+- !private ["Ps9Equatable", "showLevelSelector"]
+- !private ["Ps9Equatable", "showReady"]
+- ["Ps9Equatable", ""]
+- ["CSo7GKState", "AnyClass"]
+- ["CSo7GKState", "Bool"]
+- ["CSo7GKState", "GKState"]
+- !private ["CSo7GKState", "GameSceneActiveState"]
+- ["CSo7GKState", "didEnter"]
+- ["CSo7GKState", "isValidNextState"]
+- !private ["CSo7GKState", "showLevelSelector"]
+- !private ["CSo7GKState", "showReady"]
+- ["C12TookaDefense9GameScene", "deinit"]
+- ["C12TookaDefense22GameSceneLevelSelector", "AnyClass"]
+- ["C12TookaDefense22GameSceneLevelSelector", "Bool"]
+- ["C12TookaDefense22GameSceneLevelSelector", "GKState"]
+- !private ["C12TookaDefense22GameSceneLevelSelector", "GameSceneActiveState"]
+- ["C12TookaDefense22GameSceneLevelSelector", "deinit"]
+- ["C12TookaDefense22GameSceneLevelSelector", "didEnter"]
+- ["C12TookaDefense22GameSceneLevelSelector", "init"]
+- ["C12TookaDefense22GameSceneLevelSelector", "isValidNextState"]
+- !private ["C12TookaDefense22GameSceneLevelSelector", "showLevelSelector"]
+- !private ["C12TookaDefense22GameSceneLevelSelector", "showReady"]
+- ["C12TookaDefense14GameSceneState", "AnyClass"]
+- ["C12TookaDefense14GameSceneState", "Bool"]
+- ["C12TookaDefense14GameSceneState", "GKState"]
+- !private ["C12TookaDefense14GameSceneState", "GameSceneActiveState"]
+- ["C12TookaDefense14GameSceneState", "deinit"]
+- ["C12TookaDefense14GameSceneState", "didEnter"]
+- ["C12TookaDefense14GameSceneState", "init"]
+- ["C12TookaDefense14GameSceneState", "isValidNextState"]
+- !private ["C12TookaDefense14GameSceneState", "showLevelSelector"]
+- !private ["C12TookaDefense14GameSceneState", "showReady"]
+- ["C12TookaDefense14GameSceneState", ""]
+- !private ["Ps8Hashable", "GameSceneActiveState"]
+- ["Ps8Hashable", "didEnter"]
+- !private ["Ps8Hashable", "init"]
+- ["Ps8Hashable", "isValidNextState"]
+- !private ["Ps8Hashable", "showLevelSelector"]
+- !private ["Ps8Hashable", "showReady"]
+- ["Ps8Hashable", ""]
+- ["CSo8NSObject", "AnyClass"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "GKState"]
+- !private ["CSo8NSObject", "GameSceneActiveState"]
+- ["CSo8NSObject", "didEnter"]
+- ["CSo8NSObject", "isValidNextState"]
+- !private ["CSo8NSObject", "showLevelSelector"]
+- !private ["CSo8NSObject", "showReady"]
+- !private ["PSo16NSObjectProtocol", "GameSceneActiveState"]
+- ["PSo16NSObjectProtocol", "didEnter"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "isValidNextState"]
+- !private ["PSo16NSObjectProtocol", "showLevelSelector"]
+- !private ["PSo16NSObjectProtocol", "showReady"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["Ps9_Hashable", "GameSceneActiveState"]
+- ["Ps9_Hashable", "didEnter"]
+- !private ["Ps9_Hashable", "init"]
+- ["Ps9_Hashable", "isValidNextState"]
+- !private ["Ps9_Hashable", "showLevelSelector"]
+- !private ["Ps9_Hashable", "showReady"]
+- ["Ps9_Hashable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- "Sb"
+- "Ps7CVarArg"
+- "Ps28CustomDebugStringConvertible"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "CSo7GKState"
+- "C12TookaDefense9GameScene"
+- "C12TookaDefense22GameSceneLevelSelector"
+- "C12TookaDefense14GameSceneState"
+- "Ps8Hashable"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "Ps9_Hashable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "661e58db5e39b48c742de9577f9f470e"

@@ -1,0 +1,629 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HealthComponent"
+provides-nominal:
+- "C12TookaDefense15HealthComponent"
+provides-member:
+- ["C12TookaDefense15HealthComponent", ""]
+provides-dynamic-lookup:
+- "healthBarFullWidth"
+- "takeDamage"
+- "healthBar"
+- "fullHealth"
+- "soundAction"
+- "health"
+depends-top-level:
+- !private "-"
+- "AssignmentPrecedence"
+- !private "=="
+- "GKComponent"
+- !private "UIColor"
+- !private "+"
+- "Bool"
+- !private "max"
+- "SKNode"
+- "Int"
+- "CGFloat"
+- "NSCoder"
+- !private "fatalError"
+- !private "UIBezierPath"
+- "SKShapeNode"
+- "StringLiteralType"
+- "HealthComponent"
+- !private "/"
+- !private "CGPoint"
+- "SKAction"
+- "BooleanLiteralType"
+- !private "Array"
+- !private "CGRect"
+depends-member:
+- !private ["Ps16AbsoluteValuable", "init"]
+- !private ["Ps9AnyObject", "CGFloat"]
+- !private ["Ps9AnyObject", "CGPoint"]
+- !private ["Ps9AnyObject", "CGRect"]
+- ["Ps9AnyObject", "SKAction"]
+- !private ["Ps9AnyObject", "SKShapeNode"]
+- !private ["Ps9AnyObject", "UIBezierPath"]
+- !private ["Ps9AnyObject", "UIColor"]
+- !private ["Ps9AnyObject", "addChild"]
+- !private ["Ps9AnyObject", "cgPath"]
+- !private ["Ps9AnyObject", "fatalError"]
+- !private ["Ps9AnyObject", "fillColor"]
+- ["Ps9AnyObject", "fullHealth"]
+- !private ["Ps9AnyObject", "green"]
+- !private ["Ps9AnyObject", "group"]
+- ["Ps9AnyObject", "health"]
+- ["Ps9AnyObject", "healthBar"]
+- ["Ps9AnyObject", "healthBarFullWidth"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "isHidden"]
+- !private ["Ps9AnyObject", "max"]
+- ["Ps9AnyObject", "playSoundFileNamed"]
+- !private ["Ps9AnyObject", "position"]
+- !private ["Ps9AnyObject", "run"]
+- !private ["Ps9AnyObject", "scaleX"]
+- ["Ps9AnyObject", "soundAction"]
+- !private ["Ps9AnyObject", "strokeColor"]
+- ["Ps9AnyObject", "takeDamage"]
+- ["Ps9AnyObject", ""]
+- !private ["Sa", "Element"]
+- ["Sa", "deinit"]
+- !private ["Ps23BidirectionalCollection", "Element"]
+- !private ["Ps22BidirectionalIndexable", "Element"]
+- !private ["Ps19BinaryFloatingPoint", "init"]
+- ["Sb", "deinit"]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["V12CoreGraphics7CGFloat", "init"]
+- ["VSC7CGPoint", "deinit"]
+- !private ["VSC7CGPoint", "init"]
+- !private ["VSC7CGPoint", "x"]
+- !private ["VSC7CGPoint", "y"]
+- ["VSC6CGRect", "deinit"]
+- !private ["VSC6CGRect", "init"]
+- !private ["Ps7CVarArg", "CGFloat"]
+- !private ["Ps7CVarArg", "CGPoint"]
+- !private ["Ps7CVarArg", "CGRect"]
+- !private ["Ps7CVarArg", "Element"]
+- ["Ps7CVarArg", "SKAction"]
+- !private ["Ps7CVarArg", "SKShapeNode"]
+- !private ["Ps7CVarArg", "UIBezierPath"]
+- !private ["Ps7CVarArg", "UIColor"]
+- !private ["Ps7CVarArg", "addChild"]
+- !private ["Ps7CVarArg", "cgPath"]
+- !private ["Ps7CVarArg", "fatalError"]
+- !private ["Ps7CVarArg", "fillColor"]
+- ["Ps7CVarArg", "fullHealth"]
+- !private ["Ps7CVarArg", "green"]
+- !private ["Ps7CVarArg", "group"]
+- ["Ps7CVarArg", "health"]
+- ["Ps7CVarArg", "healthBar"]
+- ["Ps7CVarArg", "healthBarFullWidth"]
+- ["Ps7CVarArg", "init"]
+- !private ["Ps7CVarArg", "isHidden"]
+- !private ["Ps7CVarArg", "max"]
+- ["Ps7CVarArg", "playSoundFileNamed"]
+- !private ["Ps7CVarArg", "position"]
+- !private ["Ps7CVarArg", "run"]
+- !private ["Ps7CVarArg", "scaleX"]
+- ["Ps7CVarArg", "soundAction"]
+- !private ["Ps7CVarArg", "strokeColor"]
+- ["Ps7CVarArg", "takeDamage"]
+- ["Ps7CVarArg", ""]
+- !private ["Ps10Collection", "Element"]
+- ["Ps10Comparable", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "CGFloat"]
+- !private ["Ps28CustomDebugStringConvertible", "CGPoint"]
+- !private ["Ps28CustomDebugStringConvertible", "CGRect"]
+- !private ["Ps28CustomDebugStringConvertible", "Element"]
+- ["Ps28CustomDebugStringConvertible", "SKAction"]
+- !private ["Ps28CustomDebugStringConvertible", "SKShapeNode"]
+- !private ["Ps28CustomDebugStringConvertible", "UIBezierPath"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- !private ["Ps28CustomDebugStringConvertible", "addChild"]
+- !private ["Ps28CustomDebugStringConvertible", "cgPath"]
+- !private ["Ps28CustomDebugStringConvertible", "fatalError"]
+- !private ["Ps28CustomDebugStringConvertible", "fillColor"]
+- ["Ps28CustomDebugStringConvertible", "fullHealth"]
+- !private ["Ps28CustomDebugStringConvertible", "green"]
+- !private ["Ps28CustomDebugStringConvertible", "group"]
+- ["Ps28CustomDebugStringConvertible", "health"]
+- ["Ps28CustomDebugStringConvertible", "healthBar"]
+- ["Ps28CustomDebugStringConvertible", "healthBarFullWidth"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "isHidden"]
+- !private ["Ps28CustomDebugStringConvertible", "max"]
+- ["Ps28CustomDebugStringConvertible", "playSoundFileNamed"]
+- !private ["Ps28CustomDebugStringConvertible", "position"]
+- !private ["Ps28CustomDebugStringConvertible", "run"]
+- !private ["Ps28CustomDebugStringConvertible", "scaleX"]
+- ["Ps28CustomDebugStringConvertible", "soundAction"]
+- !private ["Ps28CustomDebugStringConvertible", "strokeColor"]
+- ["Ps28CustomDebugStringConvertible", "takeDamage"]
+- !private ["Ps28CustomDebugStringConvertible", "x"]
+- !private ["Ps28CustomDebugStringConvertible", "y"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps29CustomPlaygroundQuickLookable", "fillColor"]
+- ["Ps29CustomPlaygroundQuickLookable", "init"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "isHidden"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "position"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "run"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "strokeColor"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "x"]
+- !private ["Ps29CustomPlaygroundQuickLookable", "y"]
+- !private ["Ps17CustomReflectable", "Element"]
+- ["Ps17CustomReflectable", "init"]
+- !private ["Ps17CustomReflectable", "x"]
+- !private ["Ps17CustomReflectable", "y"]
+- !private ["Ps23CustomStringConvertible", "CGFloat"]
+- !private ["Ps23CustomStringConvertible", "CGPoint"]
+- !private ["Ps23CustomStringConvertible", "CGRect"]
+- !private ["Ps23CustomStringConvertible", "Element"]
+- ["Ps23CustomStringConvertible", "SKAction"]
+- !private ["Ps23CustomStringConvertible", "SKShapeNode"]
+- !private ["Ps23CustomStringConvertible", "UIBezierPath"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- !private ["Ps23CustomStringConvertible", "addChild"]
+- !private ["Ps23CustomStringConvertible", "cgPath"]
+- !private ["Ps23CustomStringConvertible", "fatalError"]
+- !private ["Ps23CustomStringConvertible", "fillColor"]
+- ["Ps23CustomStringConvertible", "fullHealth"]
+- !private ["Ps23CustomStringConvertible", "green"]
+- !private ["Ps23CustomStringConvertible", "group"]
+- ["Ps23CustomStringConvertible", "health"]
+- ["Ps23CustomStringConvertible", "healthBar"]
+- ["Ps23CustomStringConvertible", "healthBarFullWidth"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "isHidden"]
+- !private ["Ps23CustomStringConvertible", "max"]
+- ["Ps23CustomStringConvertible", "playSoundFileNamed"]
+- !private ["Ps23CustomStringConvertible", "position"]
+- !private ["Ps23CustomStringConvertible", "run"]
+- !private ["Ps23CustomStringConvertible", "scaleX"]
+- ["Ps23CustomStringConvertible", "soundAction"]
+- !private ["Ps23CustomStringConvertible", "strokeColor"]
+- ["Ps23CustomStringConvertible", "takeDamage"]
+- ["Ps23CustomStringConvertible", ""]
+- ["Sd", "deinit"]
+- !private ["Ps9Equatable", "CGFloat"]
+- !private ["Ps9Equatable", "CGPoint"]
+- !private ["Ps9Equatable", "CGRect"]
+- ["Ps9Equatable", "SKAction"]
+- !private ["Ps9Equatable", "SKShapeNode"]
+- !private ["Ps9Equatable", "UIBezierPath"]
+- !private ["Ps9Equatable", "UIColor"]
+- !private ["Ps9Equatable", "addChild"]
+- !private ["Ps9Equatable", "cgPath"]
+- !private ["Ps9Equatable", "fatalError"]
+- !private ["Ps9Equatable", "fillColor"]
+- ["Ps9Equatable", "fullHealth"]
+- !private ["Ps9Equatable", "green"]
+- !private ["Ps9Equatable", "group"]
+- ["Ps9Equatable", "health"]
+- ["Ps9Equatable", "healthBar"]
+- ["Ps9Equatable", "healthBarFullWidth"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "isHidden"]
+- !private ["Ps9Equatable", "max"]
+- ["Ps9Equatable", "playSoundFileNamed"]
+- !private ["Ps9Equatable", "position"]
+- !private ["Ps9Equatable", "run"]
+- !private ["Ps9Equatable", "scaleX"]
+- ["Ps9Equatable", "soundAction"]
+- !private ["Ps9Equatable", "strokeColor"]
+- ["Ps9Equatable", "takeDamage"]
+- !private ["Ps9Equatable", "x"]
+- !private ["Ps9Equatable", "y"]
+- ["Ps9Equatable", ""]
+- !private ["Ps25ExpressibleByArrayLiteral", "Element"]
+- ["Ps43ExpressibleByExtendedGraphemeClusterLiteral", "init"]
+- !private ["Ps25ExpressibleByFloatLiteral", "init"]
+- !private ["Ps27ExpressibleByIntegerLiteral", "init"]
+- ["Ps32ExpressibleByStringInterpolation", "init"]
+- ["Ps26ExpressibleByStringLiteral", "init"]
+- ["Ps33ExpressibleByUnicodeScalarLiteral", "init"]
+- !private ["Ps13FloatingPoint", "init"]
+- ["CSo11GKComponent", "Bool"]
+- ["CSo11GKComponent", "CGFloat"]
+- !private ["CSo11GKComponent", "CGPoint"]
+- !private ["CSo11GKComponent", "CGRect"]
+- ["CSo11GKComponent", "Int"]
+- ["CSo11GKComponent", "NSCoder"]
+- ["CSo11GKComponent", "SKAction"]
+- ["CSo11GKComponent", "SKNode"]
+- ["CSo11GKComponent", "SKShapeNode"]
+- !private ["CSo11GKComponent", "UIBezierPath"]
+- !private ["CSo11GKComponent", "UIColor"]
+- ["CSo11GKComponent", "deinit"]
+- !private ["CSo11GKComponent", "fatalError"]
+- ["CSo11GKComponent", "fullHealth"]
+- ["CSo11GKComponent", "health"]
+- ["CSo11GKComponent", "healthBar"]
+- ["CSo11GKComponent", "healthBarFullWidth"]
+- ["CSo11GKComponent", "init"]
+- !private ["CSo11GKComponent", "max"]
+- ["CSo11GKComponent", "soundAction"]
+- ["CSo11GKComponent", "takeDamage"]
+- ["CSo11GKComponent", ""]
+- !private ["Ps8Hashable", "CGFloat"]
+- !private ["Ps8Hashable", "CGPoint"]
+- !private ["Ps8Hashable", "CGRect"]
+- ["Ps8Hashable", "SKAction"]
+- !private ["Ps8Hashable", "SKShapeNode"]
+- !private ["Ps8Hashable", "UIBezierPath"]
+- !private ["Ps8Hashable", "UIColor"]
+- !private ["Ps8Hashable", "addChild"]
+- !private ["Ps8Hashable", "cgPath"]
+- !private ["Ps8Hashable", "fatalError"]
+- !private ["Ps8Hashable", "fillColor"]
+- ["Ps8Hashable", "fullHealth"]
+- !private ["Ps8Hashable", "green"]
+- !private ["Ps8Hashable", "group"]
+- ["Ps8Hashable", "health"]
+- ["Ps8Hashable", "healthBar"]
+- ["Ps8Hashable", "healthBarFullWidth"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "isHidden"]
+- !private ["Ps8Hashable", "max"]
+- ["Ps8Hashable", "playSoundFileNamed"]
+- !private ["Ps8Hashable", "position"]
+- !private ["Ps8Hashable", "run"]
+- !private ["Ps8Hashable", "scaleX"]
+- ["Ps8Hashable", "soundAction"]
+- !private ["Ps8Hashable", "strokeColor"]
+- ["Ps8Hashable", "takeDamage"]
+- ["Ps8Hashable", ""]
+- ["C12TookaDefense15HealthComponent", "Bool"]
+- ["C12TookaDefense15HealthComponent", "CGFloat"]
+- !private ["C12TookaDefense15HealthComponent", "CGPoint"]
+- !private ["C12TookaDefense15HealthComponent", "CGRect"]
+- ["C12TookaDefense15HealthComponent", "Int"]
+- ["C12TookaDefense15HealthComponent", "NSCoder"]
+- ["C12TookaDefense15HealthComponent", "SKAction"]
+- ["C12TookaDefense15HealthComponent", "SKNode"]
+- ["C12TookaDefense15HealthComponent", "SKShapeNode"]
+- !private ["C12TookaDefense15HealthComponent", "UIBezierPath"]
+- !private ["C12TookaDefense15HealthComponent", "UIColor"]
+- ["C12TookaDefense15HealthComponent", "deinit"]
+- !private ["C12TookaDefense15HealthComponent", "fatalError"]
+- ["C12TookaDefense15HealthComponent", "fullHealth"]
+- ["C12TookaDefense15HealthComponent", "health"]
+- ["C12TookaDefense15HealthComponent", "healthBar"]
+- ["C12TookaDefense15HealthComponent", "healthBarFullWidth"]
+- ["C12TookaDefense15HealthComponent", "init"]
+- !private ["C12TookaDefense15HealthComponent", "max"]
+- ["C12TookaDefense15HealthComponent", "soundAction"]
+- ["C12TookaDefense15HealthComponent", "takeDamage"]
+- !private ["Ps9Indexable", "Element"]
+- !private ["Ps13IndexableBase", "Element"]
+- ["Si", "deinit"]
+- ["Ps25LosslessStringConvertible", "init"]
+- ["Ps10MirrorPath", "init"]
+- !private ["Ps17MutableCollection", "Element"]
+- !private ["Ps16MutableIndexable", "Element"]
+- !private ["PSo8NSCoding", "CGFloat"]
+- !private ["PSo8NSCoding", "CGPoint"]
+- !private ["PSo8NSCoding", "CGRect"]
+- ["PSo8NSCoding", "SKAction"]
+- !private ["PSo8NSCoding", "SKShapeNode"]
+- !private ["PSo8NSCoding", "UIBezierPath"]
+- !private ["PSo8NSCoding", "UIColor"]
+- !private ["PSo8NSCoding", "addChild"]
+- !private ["PSo8NSCoding", "cgPath"]
+- !private ["PSo8NSCoding", "fatalError"]
+- !private ["PSo8NSCoding", "fillColor"]
+- ["PSo8NSCoding", "fullHealth"]
+- !private ["PSo8NSCoding", "green"]
+- !private ["PSo8NSCoding", "group"]
+- ["PSo8NSCoding", "health"]
+- ["PSo8NSCoding", "healthBar"]
+- ["PSo8NSCoding", "healthBarFullWidth"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "isHidden"]
+- !private ["PSo8NSCoding", "max"]
+- ["PSo8NSCoding", "playSoundFileNamed"]
+- !private ["PSo8NSCoding", "position"]
+- !private ["PSo8NSCoding", "run"]
+- !private ["PSo8NSCoding", "scaleX"]
+- ["PSo8NSCoding", "soundAction"]
+- !private ["PSo8NSCoding", "strokeColor"]
+- ["PSo8NSCoding", "takeDamage"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGFloat"]
+- !private ["PSo9NSCopying", "CGPoint"]
+- !private ["PSo9NSCopying", "CGRect"]
+- ["PSo9NSCopying", "SKAction"]
+- !private ["PSo9NSCopying", "SKShapeNode"]
+- !private ["PSo9NSCopying", "UIBezierPath"]
+- !private ["PSo9NSCopying", "UIColor"]
+- !private ["PSo9NSCopying", "addChild"]
+- !private ["PSo9NSCopying", "cgPath"]
+- !private ["PSo9NSCopying", "fatalError"]
+- !private ["PSo9NSCopying", "fillColor"]
+- ["PSo9NSCopying", "fullHealth"]
+- !private ["PSo9NSCopying", "green"]
+- !private ["PSo9NSCopying", "group"]
+- ["PSo9NSCopying", "health"]
+- ["PSo9NSCopying", "healthBar"]
+- ["PSo9NSCopying", "healthBarFullWidth"]
+- ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "isHidden"]
+- !private ["PSo9NSCopying", "max"]
+- ["PSo9NSCopying", "playSoundFileNamed"]
+- !private ["PSo9NSCopying", "position"]
+- !private ["PSo9NSCopying", "run"]
+- !private ["PSo9NSCopying", "scaleX"]
+- ["PSo9NSCopying", "soundAction"]
+- !private ["PSo9NSCopying", "strokeColor"]
+- ["PSo9NSCopying", "takeDamage"]
+- ["PSo9NSCopying", ""]
+- ["PSo16NSMutableCopying", "init"]
+- ["CSo8NSObject", "Bool"]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPoint"]
+- !private ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "Int"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "SKAction"]
+- ["CSo8NSObject", "SKNode"]
+- ["CSo8NSObject", "SKShapeNode"]
+- !private ["CSo8NSObject", "UIBezierPath"]
+- !private ["CSo8NSObject", "UIColor"]
+- !private ["CSo8NSObject", "addChild"]
+- !private ["CSo8NSObject", "cgPath"]
+- !private ["CSo8NSObject", "fatalError"]
+- !private ["CSo8NSObject", "fillColor"]
+- ["CSo8NSObject", "fullHealth"]
+- !private ["CSo8NSObject", "green"]
+- !private ["CSo8NSObject", "group"]
+- ["CSo8NSObject", "health"]
+- ["CSo8NSObject", "healthBar"]
+- ["CSo8NSObject", "healthBarFullWidth"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isHidden"]
+- !private ["CSo8NSObject", "max"]
+- ["CSo8NSObject", "playSoundFileNamed"]
+- !private ["CSo8NSObject", "position"]
+- !private ["CSo8NSObject", "run"]
+- !private ["CSo8NSObject", "scaleX"]
+- ["CSo8NSObject", "soundAction"]
+- !private ["CSo8NSObject", "strokeColor"]
+- ["CSo8NSObject", "takeDamage"]
+- !private ["PSo16NSObjectProtocol", "CGFloat"]
+- !private ["PSo16NSObjectProtocol", "CGPoint"]
+- !private ["PSo16NSObjectProtocol", "CGRect"]
+- ["PSo16NSObjectProtocol", "SKAction"]
+- !private ["PSo16NSObjectProtocol", "SKShapeNode"]
+- !private ["PSo16NSObjectProtocol", "UIBezierPath"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- !private ["PSo16NSObjectProtocol", "addChild"]
+- !private ["PSo16NSObjectProtocol", "cgPath"]
+- !private ["PSo16NSObjectProtocol", "fatalError"]
+- !private ["PSo16NSObjectProtocol", "fillColor"]
+- ["PSo16NSObjectProtocol", "fullHealth"]
+- !private ["PSo16NSObjectProtocol", "green"]
+- !private ["PSo16NSObjectProtocol", "group"]
+- ["PSo16NSObjectProtocol", "health"]
+- ["PSo16NSObjectProtocol", "healthBar"]
+- ["PSo16NSObjectProtocol", "healthBarFullWidth"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isHidden"]
+- !private ["PSo16NSObjectProtocol", "max"]
+- ["PSo16NSObjectProtocol", "playSoundFileNamed"]
+- !private ["PSo16NSObjectProtocol", "position"]
+- !private ["PSo16NSObjectProtocol", "run"]
+- !private ["PSo16NSObjectProtocol", "scaleX"]
+- ["PSo16NSObjectProtocol", "soundAction"]
+- !private ["PSo16NSObjectProtocol", "strokeColor"]
+- ["PSo16NSObjectProtocol", "takeDamage"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "green"]
+- ["PSo14NSSecureCoding", "init"]
+- ["CSo8NSString", "init"]
+- ["Os5Never", "deinit"]
+- !private ["Ps22RandomAccessCollection", "Element"]
+- !private ["Ps21RandomAccessIndexable", "Element"]
+- !private ["Ps26RangeReplaceableCollection", "Element"]
+- !private ["Ps25RangeReplaceableIndexable", "Element"]
+- ["CSo8SKAction", "deinit"]
+- !private ["CSo8SKAction", "group"]
+- ["CSo8SKAction", "playSoundFileNamed"]
+- !private ["CSo8SKAction", "scaleX"]
+- !private ["CSo6SKNode", "addChild"]
+- ["CSo6SKNode", "deinit"]
+- !private ["CSo6SKNode", "fillColor"]
+- !private ["CSo6SKNode", "init"]
+- !private ["CSo6SKNode", "isHidden"]
+- !private ["CSo6SKNode", "position"]
+- !private ["CSo6SKNode", "run"]
+- !private ["CSo6SKNode", "strokeColor"]
+- ["CSo11SKShapeNode", "deinit"]
+- !private ["CSo11SKShapeNode", "fillColor"]
+- !private ["CSo11SKShapeNode", "init"]
+- !private ["CSo11SKShapeNode", "isHidden"]
+- !private ["CSo11SKShapeNode", "position"]
+- !private ["CSo11SKShapeNode", "run"]
+- !private ["CSo11SKShapeNode", "strokeColor"]
+- !private ["Ps8Sequence", "Element"]
+- !private ["Ps12SignedNumber", "init"]
+- ["Vs12StaticString", "deinit"]
+- !private ["Vs12StaticString", "init"]
+- !private ["Ps10Strideable", "init"]
+- ["SS", "deinit"]
+- ["SS", "init"]
+- ["Ps16TextOutputStream", "init"]
+- ["Ps20TextOutputStreamable", "init"]
+- !private ["CSo12UIBezierPath", "cgPath"]
+- ["CSo12UIBezierPath", "deinit"]
+- !private ["CSo12UIBezierPath", "init"]
+- ["CSo7UIColor", "deinit"]
+- !private ["CSo7UIColor", "green"]
+- !private ["PSo18UIFocusEnvironment", "addChild"]
+- !private ["PSo18UIFocusEnvironment", "fillColor"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "isHidden"]
+- !private ["PSo18UIFocusEnvironment", "position"]
+- !private ["PSo18UIFocusEnvironment", "run"]
+- !private ["PSo18UIFocusEnvironment", "strokeColor"]
+- !private ["PSo11UIFocusItem", "addChild"]
+- !private ["PSo11UIFocusItem", "fillColor"]
+- !private ["PSo11UIFocusItem", "init"]
+- !private ["PSo11UIFocusItem", "isHidden"]
+- !private ["PSo11UIFocusItem", "position"]
+- !private ["PSo11UIFocusItem", "run"]
+- !private ["PSo11UIFocusItem", "strokeColor"]
+- !private ["CSo11UIResponder", "addChild"]
+- !private ["CSo11UIResponder", "fillColor"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "isHidden"]
+- !private ["CSo11UIResponder", "position"]
+- !private ["CSo11UIResponder", "run"]
+- !private ["CSo11UIResponder", "strokeColor"]
+- !private ["PSo30UIResponderStandardEditActions", "addChild"]
+- !private ["PSo30UIResponderStandardEditActions", "fillColor"]
+- !private ["PSo30UIResponderStandardEditActions", "init"]
+- !private ["PSo30UIResponderStandardEditActions", "isHidden"]
+- !private ["PSo30UIResponderStandardEditActions", "position"]
+- !private ["PSo30UIResponderStandardEditActions", "run"]
+- !private ["PSo30UIResponderStandardEditActions", "strokeColor"]
+- ["Su", "deinit"]
+- !private ["Ps14_ArrayProtocol", "Element"]
+- !private ["Ps15_CVarArgAligned", "init"]
+- !private ["Ps22_CVarArgPassedAsDouble", "init"]
+- !private ["Ps24_DestructorSafeContainer", "Element"]
+- ["Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral", "init"]
+- ["Ps34_ExpressibleByBuiltinStringLiteral", "init"]
+- ["Ps39_ExpressibleByBuiltinUTF16StringLiteral", "init"]
+- ["Ps41_ExpressibleByBuiltinUnicodeScalarLiteral", "init"]
+- !private ["Ps26_ExpressibleByColorLiteral", "green"]
+- ["Ps35_HasCustomAnyHashableRepresentation", "init"]
+- !private ["Ps9_Hashable", "CGFloat"]
+- !private ["Ps9_Hashable", "CGPoint"]
+- !private ["Ps9_Hashable", "CGRect"]
+- ["Ps9_Hashable", "SKAction"]
+- !private ["Ps9_Hashable", "SKShapeNode"]
+- !private ["Ps9_Hashable", "UIBezierPath"]
+- !private ["Ps9_Hashable", "UIColor"]
+- !private ["Ps9_Hashable", "addChild"]
+- !private ["Ps9_Hashable", "cgPath"]
+- !private ["Ps9_Hashable", "fatalError"]
+- !private ["Ps9_Hashable", "fillColor"]
+- ["Ps9_Hashable", "fullHealth"]
+- !private ["Ps9_Hashable", "green"]
+- !private ["Ps9_Hashable", "group"]
+- ["Ps9_Hashable", "health"]
+- ["Ps9_Hashable", "healthBar"]
+- ["Ps9_Hashable", "healthBarFullWidth"]
+- ["Ps9_Hashable", "init"]
+- !private ["Ps9_Hashable", "isHidden"]
+- !private ["Ps9_Hashable", "max"]
+- ["Ps9_Hashable", "playSoundFileNamed"]
+- !private ["Ps9_Hashable", "position"]
+- !private ["Ps9_Hashable", "run"]
+- !private ["Ps9_Hashable", "scaleX"]
+- ["Ps9_Hashable", "soundAction"]
+- !private ["Ps9_Hashable", "strokeColor"]
+- ["Ps9_Hashable", "takeDamage"]
+- ["Ps9_Hashable", ""]
+- !private ["Ps21_ObjectiveCBridgeable", "Element"]
+- ["Ps21_ObjectiveCBridgeable", "init"]
+- !private ["Ps11_Strideable", "init"]
+depends-nominal:
+- !private "Ps16AbsoluteValuable"
+- "Ps9AnyObject"
+- "Sa"
+- !private "Ps23BidirectionalCollection"
+- !private "Ps22BidirectionalIndexable"
+- !private "Ps19BinaryFloatingPoint"
+- "Sb"
+- "V12CoreGraphics7CGFloat"
+- "VSC7CGPoint"
+- "VSC6CGRect"
+- "Ps7CVarArg"
+- !private "Ps10Collection"
+- "Ps10Comparable"
+- "Ps28CustomDebugStringConvertible"
+- "Ps29CustomPlaygroundQuickLookable"
+- "Ps17CustomReflectable"
+- "Ps23CustomStringConvertible"
+- "Sd"
+- "Ps9Equatable"
+- !private "Ps25ExpressibleByArrayLiteral"
+- "Ps43ExpressibleByExtendedGraphemeClusterLiteral"
+- !private "Ps25ExpressibleByFloatLiteral"
+- !private "Ps27ExpressibleByIntegerLiteral"
+- "Ps32ExpressibleByStringInterpolation"
+- "Ps26ExpressibleByStringLiteral"
+- "Ps33ExpressibleByUnicodeScalarLiteral"
+- !private "Ps13FloatingPoint"
+- "CSo11GKComponent"
+- "Ps8Hashable"
+- "C12TookaDefense15HealthComponent"
+- !private "Ps9Indexable"
+- !private "Ps13IndexableBase"
+- "Si"
+- "Ps25LosslessStringConvertible"
+- "Ps10MirrorPath"
+- !private "Ps17MutableCollection"
+- !private "Ps16MutableIndexable"
+- "PSo8NSCoding"
+- "PSo9NSCopying"
+- "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "PSo14NSSecureCoding"
+- "CSo8NSString"
+- "Os5Never"
+- !private "Ps22RandomAccessCollection"
+- !private "Ps21RandomAccessIndexable"
+- !private "Ps26RangeReplaceableCollection"
+- !private "Ps25RangeReplaceableIndexable"
+- "CSo8SKAction"
+- "CSo6SKNode"
+- "CSo11SKShapeNode"
+- !private "Ps8Sequence"
+- !private "Ps12SignedNumber"
+- "Vs12StaticString"
+- !private "Ps10Strideable"
+- "SS"
+- "Ps16TextOutputStream"
+- "Ps20TextOutputStreamable"
+- "CSo12UIBezierPath"
+- "CSo7UIColor"
+- !private "PSo18UIFocusEnvironment"
+- !private "PSo11UIFocusItem"
+- !private "CSo11UIResponder"
+- !private "PSo30UIResponderStandardEditActions"
+- "Su"
+- !private "Ps14_ArrayProtocol"
+- !private "Ps15_CVarArgAligned"
+- !private "Ps22_CVarArgPassedAsDouble"
+- !private "Ps24_DestructorSafeContainer"
+- "Ps51_ExpressibleByBuiltinExtendedGraphemeClusterLiteral"
+- "Ps34_ExpressibleByBuiltinStringLiteral"
+- "Ps39_ExpressibleByBuiltinUTF16StringLiteral"
+- "Ps41_ExpressibleByBuiltinUnicodeScalarLiteral"
+- !private "Ps26_ExpressibleByColorLiteral"
+- "Ps35_HasCustomAnyHashableRepresentation"
+- "Ps9_Hashable"
+- "Ps21_ObjectiveCBridgeable"
+- !private "Ps11_Strideable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SpriteKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/simd.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GLKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SceneKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/GameplayKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/AVFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreMedia.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreAudio.swiftmodule"
+interface-hash: "3c8794d74a0d173d8f767383c671179c"
